@@ -1,0 +1,89 @@
+
+p.silly_text {
+    font-size: x-large; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p.nav_bar {
+    border: solid black 2px;
+    background-color: rgb(201, 201, 201);
+    border-radius: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: 0.2s ease-in-out;   
+  }
+p.nav_bar:hover {
+    scale: 1.25;
+    background-color: rgb(86, 247, 255);
+    border: groove black 1px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.display {
+    border: solid black 2px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    text-align: center;
+}
+figure.cat-figure {
+    background-color: antiquewhite;
+    border: solid black 2px;
+    padding: 3px;
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+}
+
+figcaption.cap-figure {
+    border: solid black 2px;
+    padding: 3px;
+    align-self: auto;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    color: rgb(201, 97, 97);
+    background-color: blanchedalmond;
+}
+p.P-dialogue{
+    font-family: 'Courier New', Courier, monospace;
+}
+img.title-logo{
+    display: flex;
+    margin: 3px auto;
+    max-width: 700px;
+    max-height: 150px;
+    border-radius: 15px;
+}
+a.main-logo{
+    display: flex;
+    width: fit-content;
+    text-align: center;
+    margin: 1px auto;
+}
+a.cat-image {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+.socials {
+    list-style: upper-roman;
+    display:flex; 
+    flex-direction: column; 
+    text-align: center; 
+    align-items: center;
+}
+.lista-numerata {
+    list-style: decimal;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Title-page{
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-style: oblique;
+}
