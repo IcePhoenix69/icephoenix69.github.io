@@ -1,7 +1,7 @@
 body {
     background-color: azure;
     background: no-repeat fixed;
-    background-image: url("../images/background-glacier.jpg");
+    background-image: url("https://icephoenix69.github.io/images/background-glacier.jpg");
     background-size: cover;
 }
 header {
@@ -64,5 +64,5 @@ main {
 }
 @font-face {
     font-family: "WinterKei";
-    src: local(WinterKei-eZZRl), url(WinterKei-eZZRl.ttf);
+    src: local(WinterKei-eZZRl), url(https://icephoenix69.github.io/Styles/WinterKei-eZZRl.ttf);
 }
