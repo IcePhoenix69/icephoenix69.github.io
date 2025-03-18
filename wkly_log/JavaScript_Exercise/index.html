@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript test</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>JavaScript Test</h1>
+        <button id="button" onclick="clicc()">Click me</button>
+        <h2 id="mod_test">Testo modificabile</h2>
+        <div class="Ping_pong">
+            <h2 id="pingpong">E' ping o pong?</h2>
+            <button onclick="clicc2()">Click Me</button>
+        </div><br>
+        <div>
+            <table class="tabella">
+                <tr>
+                    <td>
+                        Microcalcolatore con input e JS:
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="tabNum1" type="text" placeholder="Insert number 1 here...">
+                    </td>
+                    <td>
+                        <input id="tabNum2" type="text" placeholder="Insert number 2 here...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="tab_number()">Click to elaborate</button>
+                    </td>
+                    <td>
+                        <p id="result">Risultato</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <input type="color">
+        <input id="myInput" type="text" placeholder="helo...">
+        <button onclick="PressMe()">Click</button>
+        <p id="risultato">Testo mod.</p>
+        <div class="Esercizio">
+            <h2>Indovina il numero misterioso!</h2>
+            <p>
+                Il numero misterioso e': <span id="guessRandNum">X</span>
+            </p>
+            <div class="Box_CPU_and_You">
+                <div class="CPU">
+                    <h3>CPU</h3>
+                    <h3>Number:
+                        <span id="cpuRandNum">X</span>
+                    </h3>
+                </div>
+                <div class="YOU">
+                    <input id="casella_numero" type="number" value="1" min="0" max="10">
+                    <div class="Bottoni">
+                        <button id="bottone_meno">-</button>
+                        <button id="bottone_piu">+</button>
+                    </div>
+                    <button id="start_game">Take a guess!</button>
+                </div>
+            </div>
+            <h3 id="WinOrLose">You are a...</h3>
+            <div class="score">
+                <p>Vittorie: <span id="vittorie_counter"></span></p>
+                <p>Sconfitte: <span id="sconfitte_counter"></span></p>
+                <p>Pareggi: <span id="pareggi_counter"></span></p>
+            </div>
+        </div>
+        <div class="MoneyGame">
+            <h2>Lancio della moneta</h2>
+            <p>La moneta è <span id="moneyType">...</span></p>
+            <input type="text" id="player" min="1" max="9">
+            <button onclick="flipCoin()" id="startGame">Click to start</button>
+            <p>Cpu: <span id="cpuChoice" >(choice)</span></p>
+            <p id="result3">Vinto o perso?</p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

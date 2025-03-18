@@ -3,7 +3,7 @@ p.silly_text {
     font-size: x-large; 
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-p.nav_bar {
+.nav_bar {
     border: solid black 2px;
     background-color: rgb(201, 201, 201);
     border-radius: 15px;
@@ -11,14 +11,14 @@ p.nav_bar {
     padding-right: 5%;
     padding-top: 5px;
     padding-bottom: 5px;
-    transition: 0.2s ease-in-out;   
+    transition: 0.3s ease-in-out;   
   }
 p.nav_bar:hover {
     scale: 1.25;
     background-color: rgb(86, 247, 255);
     border: groove black 1px;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "WinterKei", serif;
 }
 .display {
     border: solid black 2px;
@@ -26,6 +26,7 @@ p.nav_bar:hover {
     flex-flow: column;
     justify-content: space-around;
     text-align: center;
+    min-width: fit-content;
 }
 figure.cat-figure {
     background-color: antiquewhite;
@@ -48,6 +49,9 @@ figcaption.cap-figure {
 }
 p.P-dialogue{
     font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0,0,0, 0.6);
+    color:blanchedalmond;
+    padding: 5px;
 }
 img.title-logo{
     display: flex;
@@ -86,4 +90,7 @@ a.cat-image {
     font-family:Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
     font-style: oblique;
+}
+.pInFooter {
+    text-align: center;
 }

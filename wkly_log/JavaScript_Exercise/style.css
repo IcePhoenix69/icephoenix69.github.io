@@ -1,0 +1,92 @@
+.tabella {
+    border: 1px solid black;
+}
+.Ping_pong {
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    margin: 0 30%;
+    padding: 10px 20px;
+    text-align: center;
+}
+#myInput {
+    border: 2px solid black;
+    border-radius: 3px;
+}
+#bottone_meno {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    height: 40px;
+    width: 60px;
+    border-radius: 2px;
+    margin-right: -2px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#bottone_piu {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    height: 40px;
+    width: 60px;
+    border-radius: 2px;
+    border-left: 0px;
+    margin-left: -2px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#casella_numero {
+    border: 1px solid black;
+    width: 120px;
+    height: 120px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+.Esercizio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.Bottoni {
+    width: 124px;
+    flex-wrap: nowrap;
+}
+.Box_CPU_and_You {
+    background-color: blanchedalmond;
+    display: flex; 
+    flex-direction: row;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px 40px;
+}
+.CPU {
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 140px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.YOU {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+#start_game {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 19px;
+}
+.score {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 20px;
+}
