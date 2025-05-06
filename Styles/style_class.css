@@ -1,8 +1,8 @@
-
 p.silly_text {
-    font-size: x-large; 
+    font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .nav_bar {
     border: solid black 2px;
     background-color: rgb(201, 201, 201);
@@ -11,8 +11,9 @@ p.silly_text {
     padding-right: 5%;
     padding-top: 5px;
     padding-bottom: 5px;
-    transition: 0.3s ease-in-out;   
-  }
+    transition: 0.3s ease-in-out;
+}
+
 p.nav_bar:hover {
     scale: 1.25;
     background-color: rgb(86, 247, 255);
@@ -20,6 +21,7 @@ p.nav_bar:hover {
     font-size: 20px;
     font-family: "WinterKei", serif;
 }
+
 .display {
     border: solid black 2px;
     display: flex;
@@ -28,6 +30,7 @@ p.nav_bar:hover {
     text-align: center;
     min-width: fit-content;
 }
+
 figure.cat-figure {
     background-color: antiquewhite;
     border: solid black 2px;
@@ -47,37 +50,43 @@ figcaption.cap-figure {
     color: rgb(201, 97, 97);
     background-color: blanchedalmond;
 }
-p.P-dialogue{
+
+p.P-dialogue {
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgba(0,0,0, 0.6);
-    color:blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: blanchedalmond;
     padding: 5px;
 }
-img.title-logo{
+
+img.title-logo {
     display: flex;
     margin: 3px auto;
     max-width: 700px;
     max-height: 150px;
     border-radius: 15px;
 }
-a.main-logo{
+
+a.main-logo {
     display: flex;
     width: fit-content;
     text-align: center;
     margin: 1px auto;
 }
+
 a.cat-image {
     display: flex;
     width: fit-content;
     margin: auto;
 }
+
 .socials {
     list-style: upper-roman;
-    display:flex; 
-    flex-direction: column; 
-    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
 }
+
 .lista-numerata {
     list-style: decimal;
     display: flex;
@@ -86,11 +95,26 @@ a.cat-image {
     margin-left: auto;
     margin-right: auto;
 }
-.Title-page{
-    font-family:Georgia, Times, 'Times New Roman', serif;
+
+.Title-page {
+    font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
     font-style: oblique;
 }
+
 .pInFooter {
     text-align: center;
+}
+
+.articles {
+    background-color: rgba(208, 246, 248, 0.7);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.1em; 
+    padding: 1px 30px;
+}
+.bold_style{
+    font-weight: bold;
 }
